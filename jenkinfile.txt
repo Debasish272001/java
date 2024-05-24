@@ -1,0 +1,25 @@
+pipeline{
+agent any
+stages{
+stage ("compile")
+{
+steps
+{
+echo "compile sucessfully"
+}
+}
+stage ("text")
+{
+steps
+{
+echo "test sucess"
+}
+}
+stage ("package")
+{
+steps{
+echo "package done"
+}
+}
+}
+]
